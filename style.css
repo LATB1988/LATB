@@ -1,3 +1,14 @@
 body{
 	background: black;
+	color: white;
 }
+
+nav{
+	display: inline;
+
+}
+
+.list{
+	display: inline;
+}
+

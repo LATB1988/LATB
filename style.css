@@ -3,12 +3,25 @@ body{
 	color: white;
 }
 
-nav{
-	display: inline;
-
+nav > ul > li{
+    display: inline;
+    margin: 10px;
+    border: 2px solid green;
+    padding: 20px;
 }
 
-.list{
-	display: inline;
+nav > ul {
+	margin: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    text-align: center;
 }
+
+.social-links > ul > il
+
+
+
+
+
+
 

@@ -1,7 +1,22 @@
+/* main tags */
+
 body{
 	background: black;
 	color: white;
+	height:100%;
+	width:100%;
+	border: 2px solid red;
 }
+.container {
+	height:100%;
+	width:100%;
+	border: 2px solid white;
+
+	
+}
+
+
+/* nav bar css */
 
 nav > ul > li{
     display: inline;
@@ -17,6 +32,8 @@ nav > ul {
     text-align: center;
 }
 
+
+/* social links css */
 .list {
 	margin: 20px;
     border: 2px solid red;
@@ -24,7 +41,7 @@ nav > ul {
     text-align: center;
 }
 
-.list > li{
+.list > li {
 	display: inline;
     margin: 10px;
     border: 2px solid green;
@@ -32,6 +49,22 @@ nav > ul {
 
 
 }
+
+/* main image css */
+.latb-pic {
+	height: 70%;
+	width: 100%;
+	border: 2px solid orange;
+	padding: 0px 50px 0px 50px;
+}
+
+.bear{
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
 
 
 

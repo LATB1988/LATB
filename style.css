@@ -56,6 +56,19 @@ nav > ul {
     padding: 20px;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	color: blue;
+}
+.icons{
+	font-size: 3em; 
+	color: inherit;
+	display: inline;
+}
+
 
 /* <-------------------------main image css-------------------------> */
 

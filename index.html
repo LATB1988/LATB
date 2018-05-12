@@ -4,38 +4,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<!-- google font andy wants -->
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<!-- mailchimp! -->
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<!-- link to the instafeed js min -->
+	<script type="text/javascript" src="instafeed.min.js"></script>
+	<!-- font awesome script for api -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+
 
 	<title>LATB WEBSITE</title>
 </head>
 	<body>
 			<div class="container">
-		<!-- <nav>
-    		<ul>
-        		<li>
-					<a href="/">Home</a></li>
-	        	<li>
-					<a href="/Music">Music</a></li>
-        		<li>
-					<a href="/About">About</a></li>
-        		<li>
-					<a href="/Contact">Contact Us</a></li>
-    		</ul>
-		</nav> -->
 		<!-- beginning of pic -->
 			<div class="block"></div>
 		<div class="latb-pic-div ">
 					<img class ="pic"src="../images/LATB NEW LOG.jpeg" alt="bear">
 				</div>	
 				<!-- end of pic -->
+				<!-- start of instagram feed -->
+
+				<script type="text/javascript">
+					var feed = new Instafeed({
+						get: 'tagged',
+						tagName: 'awesome',
+						clientId: 'YOUR_CLIENT_ID',
+						template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+					});
+					feed.run(); </script>
+					<!-- end of instagram feed -->
 				<!-- beginning of social links -->
 				<div class="social-links">
 					<ul class="list">
-							<li>Facebook</li>
-							<li>Instagram</li>
-							<li>Twitter</li>
-							<li>Soundcloud</li>
+							<li>
+									<div class="icons">
+											<a href="https://www.facebook.com/leoandthebear/">
+												<i class="fab fa-facebook-square"></i>
+											</a>
+									  </div>
+							</li>
+							<li>
+								<!-- Instagram -->
+								<div class="icons">
+										<a href="https://www.instagram.com/leoandthebear/?hl=en">
+											<i class="fab fa-instagram"></i>
+										</a>
+								  </div>
+							</li>
+						<!-- Twitter -->
+							<li>
+									<div class="icons">
+											<a href="https://twitter.com/leoandthebear">
+												<i class="fab fa-twitter"></i>
+											</a>
+										  </div>
+							</li>
+							<li>
+									<div class="icons">
+											<a href="https://soundcloud.com/leoandthebear">
+												<i class="fab fa-soundcloud"></i>
+											</a>
+										  </div>
+							</li>
+						
 							<!-- <li>Spotify</li> -->
 							<!-- <li>Youtube</li> -->
 					</ul>

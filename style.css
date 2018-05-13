@@ -167,7 +167,9 @@ label {
 	
 	}
 	.block{
-		margin: 50px;
+		margin: 0px;
+		height: 0%; 
+
 		 
 	}
 	.list > li {

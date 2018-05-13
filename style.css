@@ -43,15 +43,16 @@ a {
 
 /* <-------------------------social links css----------------------------> */
 .list {
-	margin: 20px;
+	margin: 20px 20px 20px 20px;
     /* border: 2px solid red; */
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+	text-align: center;
+
 }
 .list > li {
 	display: inline;
-    margin: 10px;
-    padding: 20px;
+     margin: 10px; 
+     padding: 20px; 
 }
 
 
@@ -144,8 +145,43 @@ a {
 label {
 	margin-bottom: 15px;
 }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+
+  /* TABLET - Portrait and Landscape  */
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* MOBILE - Portrait and Landscape */
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+	.pic{
+		margin-left: auto;
+		margin-right: auto;
+		height: 250px;
+		width: 300px;
+		display: block;
+	
+	}
+	.block{
+		margin: 50px;
+		 
+	}
+	.list > li {
+		display: inline;
+		margin: 0px;
+		padding: 0px;
+	}
+  }
+
+
+
+
+
+
 
 
 /* keyframes fade in */

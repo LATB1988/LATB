@@ -159,8 +159,8 @@ label {
 	.pic{
 		margin-left: auto;
 		margin-right: auto;
-		height: 30%;
-		width: 100%;
+		height: 200px;
+		width: 200px;
 		display: block;
 	
 	}
@@ -178,8 +178,8 @@ label {
 		padding: 1%;
 	}
 	.social-links{
-	width: 110%;
-	margin: -2px;
+		width: 110%;
+		margin: -12px;
 	}
   }
 
